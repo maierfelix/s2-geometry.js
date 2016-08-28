@@ -573,7 +573,7 @@ S2.stepKey = function (key, num) {
   var otherS = otherL.toString(4);
 
   if ('0' === otherS) {
-    console.warning(new Error("face/position wrapping is not yet supported"));
+    console.warn(new Error("face/position wrapping is not yet supported"));
   }
 
   while (otherS.length < level) {
